@@ -9,7 +9,7 @@ A Windows launcher and utility for working with **Portal 2 beta builds**.
 Portal 2 BETA Launcher is designed to make it easier to find, launch, and manage locally stored Portal 2 beta builds without having to manually set up launch commands every time.
 
 ## Notice
-This program, **Portal 2 BETA Launcher**, is being made by a Member of the **Portal Series Beta Research** Discord Server, for the Server & it's Members
+This program, **Portal 2 BETA Launcher**, is being made by a Member of the **Portal Series Beta Research** [`DISCORD SERVER`]([LICENSE](https://discord.gg/ddBC3BVg5d)), for the Server & it's Members
 
 <img width="128" height="128" alt="PSBR_Logo" src="https://github.com/user-attachments/assets/cd2d89e5-67ff-4e21-bca5-3f74497d7812" />
 
