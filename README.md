@@ -42,9 +42,7 @@ The interface, internal architecture, data handling, file formats, and feature o
 # R-2 — In Development
 
 ## R-2 Development New GUI Screenshot
-# Portal 2 BETA Launcher
-
-<img width="308" height="80" alt="P2BL_ProgAboutLogo" src="https://github.com/user-attachments/assets/7837cad1-59b4-4213-ac55-3759615e2471" />
+<img width="1920" height="1052" alt="image" src="https://github.com/user-attachments/assets/3c99e3ce-b985-42a1-9aa1-09e3941efd25" />
 
 > **Portal 2 BETA Launcher** is a Windows launcher and utility suite for locating, launching, organizing, testing, and preserving locally stored **Portal 2 beta builds**.
 
