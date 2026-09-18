@@ -48,41 +48,6 @@ The interface, internal architecture, data handling, file formats, and feature o
 
 ---
 
-## About
-
-Portal 2 BETA Launcher was created to make working with Portal 2 beta builds significantly easier than manually configuring launch commands, managing folders, and maintaining separate tools for every build.
-
-The project is designed primarily for **Portal 2 beta research, testing, documentation, and preservation**, with the long-term goal of putting the most common beta-build workflow into one application.
-
-The launcher began as a small **R-1 prototype** and is currently being rebuilt around a substantially larger **R-2 architecture and user interface**.
-
-### Portal Series Beta Research
-
-Portal 2 BETA Launcher is made by a member of the **Portal Series Beta Research (PSBR)** Discord community for the benefit of the server and its members.
-
-<img width="128" height="128" alt="PSBR_Logo" src="https://github.com/user-attachments/assets/cd2d89e5-67ff-4e21-bca5-3f74497d7812" />
-
-**PSBR Discord Server:**  
-https://discord.gg/ddBC3BVg5d
-
-The PSBR server is a community focused on the research, discussion, testing, documentation, and preservation of Portal series beta content and related development material.
-
-> **Important:** Portal 2 BETA Launcher is a community-made project. It is **not an official Valve or Portal 2 project**, and it is not affiliated with, sponsored by, or endorsed by Valve Corporation.
-
----
-
-## Project Status
-
-> **Current development target: R-2**
->
-> R-2 is a major rebuild of the original prototype. The old R-1 feature set remains documented below because R-2 is **still in development** and is not yet the stable replacement for the prototype.
-
-The interface, internal architecture, data handling, file formats, and feature organization are all being reworked as part of R-2.
-
----
-
-# R-2 — In Development
-
 R-2 is not simply a visual update. It is a full rebuild intended to turn the original prototype into a more complete Portal 2 beta management and research utility.
 
 ## R-2 Feature Set
