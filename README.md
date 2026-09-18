@@ -487,26 +487,6 @@ See [`EULA-DRAFT.md`](EULA-DRAFT.md) for the current proposed licensing model.
 
 > **Licensing note:** Until the R-2 license is officially changed and published, the existing repository license remains the governing license for material currently distributed under it.
 
----
-
-# About the Project
-
-Portal 2 BETA Launcher was created by **sonic Fan Tech** for the Portal 2 beta research and preservation community.
-
-The project started as a practical launcher prototype and is evolving into a larger utility suite for handling older Portal 2 development builds.
-
-R-2 represents the project's transition from a basic launcher into a more complete, organized, research-focused application.
-
-### Portal Series Beta Research
-
-For discussion, testing, beta research, preservation work, and project feedback, visit the Portal Series Beta Research Discord server:
-
-**https://discord.gg/ddBC3BVg5d**
-
-<img width="128" height="128" alt="PSBR_Logo" src="https://github.com/user-attachments/assets/cd2d89e5-67ff-4e21-bca5-3f74497d7812" />
-
----
-
 # Credits
 
 Created by **sonic Fan Tech**.
@@ -514,11 +494,3 @@ Created by **sonic Fan Tech**.
 Portal 2, Portal, Steam, and other Valve-related names and properties are owned by their respective rights holders.
 
 Portal 2 BETA Launcher is an independent community project and is **not affiliated with, sponsored by, or endorsed by Valve Corporation**.
-
----
-
-## R-2 Development Status
-
-> **R-2 is actively being developed.**
->
-> Features, UI layouts, file formats, internal systems, and licensing terms may change before the first official R-2 release.
