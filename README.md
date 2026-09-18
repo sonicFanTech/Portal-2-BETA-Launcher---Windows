@@ -320,16 +320,6 @@ The original R-1 prototype is still important because it represents the foundati
 
 - Attach a separate debug console to a running launcher process.
 
----
-
-# R-1 Prototype Screenshots
-
-The following screenshot is from the original prototype UI and is retained here for historical/documentation purposes while the R-2 interface is being rebuilt.
-
-<img width="1358" height="854" alt="Portal 2 BETA Launcher R-1 Prototype" src="https://github.com/user-attachments/assets/083ec5c9-9c45-4eef-8957-e887b9a177b8" />
-
----
-
 # Known Portal 2 Beta Builds
 
 The launcher is designed around known Portal 2 beta builds, including the following build identifiers currently used by the project:
