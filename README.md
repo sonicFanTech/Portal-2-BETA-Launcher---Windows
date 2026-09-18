@@ -17,6 +17,18 @@ This program, **Portal 2 BETA Launcher**, is being made by a Member of the **Por
 >
 > This project is a community-made utility for Portal 2 beta research and preservation. It is **not an official Valve/Portal 2 project**.
 
+## IN DEVELOPMENT R-2 FEATURE SET & UI REWORK SCREENSHOTS
+
+**R-2 Features: IN DEVELOPMENT**
+
+1. PLACEHOLDER
+2. PLACEHOLDER
+
+**Screenshots**
+
+<img width="1358" height="854" alt="image" src="https://github.com/user-attachments/assets/083ec5c9-9c45-4eef-8957-e887b9a177b8" />
+
+
 ## Features
 
 - **Beta Build Scanner**
