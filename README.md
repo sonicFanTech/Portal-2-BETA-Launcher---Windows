@@ -18,6 +18,8 @@ The launcher began as a small **R-1 prototype** and is currently being rebuilt a
 
 There's Now a P2BL Website, where All Releases & Docs for P2BL Will be Hosted on
 
+For More in-death info About P2BL, visit the New P2BL Website, P2BL R-2 is **STILL** in Active Development
+
 https://sonicfantech.org/Site/P2BL.NET
 
 ### Portal Series Beta Research
