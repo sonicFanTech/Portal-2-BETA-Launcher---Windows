@@ -29,7 +29,7 @@ Portal 2 BETA Launcher is made by a member of the **Portal Series Beta Research 
 <img width="128" height="128" alt="PSBR_Logo" src="https://github.com/user-attachments/assets/cd2d89e5-67ff-4e21-bca5-3f74497d7812" />
 
 **PSBR Discord Server:**  
-**INVITE LINK REMOVED Due to Request, to join the *PSBR Discord Server**, you MUST have P2BL Downloaded to your Device, and go to the About Tab with the Left-Side NavBar | R-2 ONLY**
+**INVITE LINK REMOVED Due to Request, to join the *PSBR Discord Server**, you MUST have P2BL Downloaded to your Device, and go to the About Tab with the Left-Side NavBar** | R-2 ONLY
 
 The PSBR server is a community focused on the research, discussion, testing, documentation, and preservation of Portal series beta content and related development material.
 
