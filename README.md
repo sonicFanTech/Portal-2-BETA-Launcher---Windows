@@ -14,6 +14,12 @@ The project is designed primarily for **Portal 2 beta research, testing, documen
 
 The launcher began as a small **R-1 prototype** and is currently being rebuilt around a substantially larger **R-2 architecture and user interface**.
 
+## Website
+
+There's Now a P2BL Website, where All Releases & Docs for P2BL Will be Hosted on
+
+https://sonicfantech.org/Site/P2BL.NET
+
 ### Portal Series Beta Research
 
 Portal 2 BETA Launcher is made by a member of the **Portal Series Beta Research (PSBR)** Discord community for the benefit of the server and its members.
