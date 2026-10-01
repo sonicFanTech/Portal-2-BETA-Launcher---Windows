@@ -2,279 +2,205 @@
 
 <img width="308" height="80" alt="P2BL_ProgAboutLogo" src="https://github.com/user-attachments/assets/7837cad1-59b4-4213-ac55-3759615e2471" />
 
-> **Portal 2 BETA Launcher** is a Windows launcher and utility suite for locating, launching, organizing, testing, and preserving locally stored **Portal 2 beta builds**.
+> **Portal 2 BETA Launcher (P2BL)** is a Windows launcher and utility suite for locating, launching, organizing, testing, and preserving locally stored **Portal 2 beta builds**.
 
 ---
 
-## About
+## Current Release
 
-Portal 2 BETA Launcher was created to make working with Portal 2 beta builds significantly easier than manually configuring launch commands, managing folders, and maintaining separate tools for every build.
+**R-2 BETA — `v2.025.2-9.29.201-B`**
 
-The project is designed primarily for **Portal 2 beta research, testing, documentation, and preservation**, with the long-term goal of putting the most common beta-build workflow into one application.
+R-2 is the current development line of Portal 2 BETA Launcher and is a major rebuild of the original prototype. It introduces a substantially redesigned GUI, a larger build-management architecture, improved scanning workflows, build-specific content organization, and the foundation for additional research and preservation utilities.
 
-The launcher began as a small **R-1 prototype** and is currently being rebuilt around a substantially larger **R-2 architecture and user interface**.
+> **R-2 is still a Beta and remains under active development.** Some systems are complete and usable, while others are still being implemented, tested, or redesigned.
+
+For the complete feature/changelog information for this release, see:
+
+**[`P2BL_R-2_BETA_v2.025.2-9.29.201-B_Features_and_Bug_Fixes.md`](P2BL_R-2_BETA_v2.025.2-9.29.201-B_Features_and_Bug_Fixes.md)**
+
+---
 
 ## Website
 
-There's Now a P2BL Website, where All Releases & Docs for P2BL Will be Hosted on
+The official P2BL website is the main place for release information, documentation, downloads, and additional project information.
 
-For More in-death info About P2BL, visit the New P2BL Website, P2BL R-2 is **STILL** in Active Development
+**P2BL Website:**
 
 https://sonicfantech.org/Site/P2BL.NET
 
-### Portal Series Beta Research
+R-2 remains in active development, so the website and release documentation may continue to change as new Beta builds are published.
 
-Portal 2 BETA Launcher is made by a member of the **Portal Series Beta Research (PSBR)** Discord community for the benefit of the server and its members.
+---
+
+## Portal Series Beta Research
+
+Portal 2 BETA Launcher is made by a member of the **Portal Series Beta Research (PSBR)** community for the benefit of beta researchers, testers, preservationists, and interested community members.
 
 <img width="128" height="128" alt="PSBR_Logo" src="https://github.com/user-attachments/assets/cd2d89e5-67ff-4e21-bca5-3f74497d7812" />
 
-**PSBR Discord Server:**  
-**INVITE LINK REMOVED Due to Request, to join the *PSBR Discord Server**, you MUST have P2BL Downloaded to your Device, and go to the About Tab with the Left-Side NavBar** | R-2 ONLY
+**PSBR Discord Server:**
 
-The PSBR server is a community focused on the research, discussion, testing, documentation, and preservation of Portal series beta content and related development material.
+The PSBR Discord invitation is available from the **About** section inside P2BL R-2.
+
+The PSBR community focuses on the research, discussion, testing, documentation, and preservation of Portal series beta content and related development material.
 
 > **Important:** Portal 2 BETA Launcher is a community-made project. It is **not an official Valve or Portal 2 project**, and it is not affiliated with, sponsored by, or endorsed by Valve Corporation.
 
 ---
 
-## Project Status
+# R-2 BETA Feature Overview
 
-> **Current development target: R-2**
->
-> R-2 is a major rebuild of the original prototype. The old R-1 feature set remains documented below because R-2 is **still in development** and is not yet the stable replacement for the prototype.
+## Rebuilt R-2 GUI
 
-The interface, internal architecture, data handling, file formats, and feature organization are all being reworked as part of R-2.
+<img width="1920" height="1052" alt="P2BL R-2 GUI" src="https://github.com/user-attachments/assets/2c0fb524-822f-40e5-8975-0e703cc5e4ba" />
 
----
+R-2 replaces the original prototype-style interface with a redesigned Windows GUI focused on easier navigation and separation of the launcher, build management, utilities, debugging, settings, and other tools.
 
-# R-2 — In Development
+### Current GUI Features
 
-R-2 is not simply a visual update. It is a full rebuild intended to turn the original prototype into a more complete Portal 2 beta management and research utility.
-
-## New GUI
-<img width="1920" height="1052" alt="image" src="https://github.com/user-attachments/assets/2c0fb524-822f-40e5-8975-0e703cc5e4ba" />
-
-
-## R-2 Feature Set
-
-### Full UI Rebuild
-
-The original prototype interface is being replaced by a completely redesigned Windows UI.
-
-The R-2 interface is being designed around:
-
-- A Valve-inspired visual style
-- A structured sidebar/navigation system
-- Expandable navigation categories and sub-pages
-- Dedicated feature tabs instead of one large prototype-style layout
-- Improved spacing, alignment, scaling, and organization
-- Better About and Settings pages
-- Scrollable navigation where required
-- Cleaner separation between launcher, management, debugging, and utility features
-- Progress indicators for operations that may take time
-
-The R-2 layout is intended to make the launcher feel like a complete application rather than a collection of prototype controls.
+- Valve-inspired visual direction
+- Structured left-side navigation
+- Dedicated pages and sections
+- Expandable/organized navigation categories
+- Improved spacing and layout organization
+- Dedicated About and Settings areas
+- Scrollable navigation where needed
+- GUI-first workflow
+- More visible progress and operation feedback
 
 ---
 
-### Beta Build Scanner
+## Beta Build Scanner
 
-R-2 continues the original beta-build scanning system, with a stronger focus on speed, reliability, and visibility.
+The R-2 scanner is designed to locate known Portal 2 beta builds across storage locations and make discovered builds available to the launcher.
 
-Planned capabilities include:
+### Features
 
-- Scanning connected drives for known Portal 2 beta builds
-- Scanning user-selected folders
-- Maintaining a list of custom scan locations
-- Detecting recognized build folders automatically
-- Displaying scan progress
-- Reporting the current scan state instead of leaving the UI appearing inactive
-- Managing discovered builds through the Build Manager
+- Scan connected drives
+- Scan user-accessible folders
+- Scan selected/custom locations
+- Detect recognized Portal 2 beta build layouts
+- Display scan progress/status
+- Display discovered builds in the launcher
+- Integrate detected builds with the Build Manager
+- Continue improving duplicate and repack handling
 
----
-
-### Build Manager
-
-The R-2 Build Manager is intended to become the central location for working with installed beta builds.
-
-Planned functionality includes:
-
-- Viewing detected beta builds
-- Switching between build-management layouts
-- Build information and metadata
-- Launching a selected build
-- Managing build-specific settings
-- Build-specific content paths
-- Extensible management for additional beta-related tools
-
-The original prototype's build list remains part of the R-1 legacy feature set below.
+The scanner is also being reworked so that valid builds can be added to the launcher list **as soon as they are discovered**, rather than waiting for an entire scan to finish.
 
 ---
 
-### Launch Profiles & Launch Arguments
+## Build Manager
 
-R-2 is intended to make launch configuration easier and more flexible.
+The **Build Manager** is the central R-2 system for working with detected beta builds.
 
-Planned support includes:
+### Current / Active Features
 
-- Build-specific launch arguments
+- Detected beta build list
+- Build display information
+- Build-specific data
+- Selected-build workflow
+- Launch integration
+- Foundation for additional build-specific tools
+
+The Build Manager is also the foundation for the ongoing **New Builds Manager** work.
+
+---
+
+## Beta Build Launcher
+
+P2BL can launch supported Portal 2 beta builds directly from the launcher.
+
+### Launch Features
+
+- Launch selected beta builds
+- Build-specific executable handling
 - Optional map launching
 - Windowed launch options
-- Resolution configuration
-- Steam startup handling
-- Extra/custom launch arguments
-- Easier editing of launch parameters
-- Saved launch configurations
+- Steam-aware launch handling
+- Build-specific launch commands
+- Launch-status feedback
+- Integration with custom/extra launch arguments
 
-A dedicated **Extra Launch Args** area is planned for advanced and debugging-oriented launch customization.
-
----
-
-### Screenshot System
-
-R-2 includes a planned screenshot system designed around the launcher rather than relying entirely on external software.
-
-The system is intended to provide:
-
-- A launcher-managed screenshot directory
-- Screenshot history/listing
-- Viewing previously captured screenshots
-- Organized screenshot metadata
-- A dedicated in-game screenshot interface
-- A launcher overlay inspired by the convenience of the Steam Overlay, but designed specifically for Portal 2 beta builds
-- A way to open the P2BL overlay while a supported beta build is running
-
-The screenshot feature is being developed as part of the larger R-2 utility/overlay system.
-
----
-
-### Custom Map Manager
-
-R-2 is planned to include a dedicated **Custom Map Manager** for managing map content independently for each beta build.
-
-The planned layout uses build-specific content directories such as:
+Common launch patterns used by the project include commands such as:
 
 ```text
-Resources/
-└── C-Maps/
-    └── <build>/
+hl2.exe -tempcontent -console -steam -windowed
+hl2.exe -game portal2 -tempcontent -console -windowed
+portal2.exe -console -steam -windowed
++map %MAP%
 ```
 
-The exact map-management workflow is still being developed.
+---
+
+## Extra Launch Arguments
+
+R-2 includes support for advanced launch customization and is continuing to expand its dedicated **Extra Launch Args** workflow.
+
+### Supported / Active Direction
+
+- Custom launch arguments
+- Build-specific argument handling
+- Map arguments
+- Windowed-mode options
+- Advanced/debugging launch customization
+
+### Status
+
+The dedicated advanced Extra Launch Args interface is **still being developed**.
 
 ---
 
-### Patch Manager
+## Build-Specific Content Organization
 
-A dedicated **Patch Manager** is planned for R-2.
+R-2 is designed to keep content separated by beta build so that files intended for one build are not mixed with another.
 
-This area is intended to provide a central place for build-specific patches and compatibility changes.
-
-> **Status:** R-2 placeholder / in development.
-
----
-
-### Mod Manager
-
-A dedicated **Mod Manager** is also planned.
-
-The intended goal is to eventually make build-specific mod organization easier while keeping the files separated by beta build.
-
-The planned structure follows the same general approach as custom maps:
+Planned/active structures include:
 
 ```text
 Resources/
+├── C-Maps/
+│   └── <build>/
 └── Mods/
     └── <build>/
 ```
 
-> **Status:** R-2 placeholder / in development.
+---
+
+## Settings & Saved Data
+
+R-2 uses launcher-owned configuration and saved-data handling for persistent application state.
+
+### Features / Infrastructure
+
+- Launcher settings
+- Persistent configuration data
+- Build-related stored data
+- Dedicated resource/data locations
+- R-2-specific data organization
 
 ---
 
-### Debugger
+## Custom File Types & Data Formats
 
-R-2 is planned to include a dedicated debugger-oriented section rather than treating debugging as a separate console-only utility.
+R-2 is expanding P2BL's use of structured launcher-specific data formats.
 
-The planned debugger is intended to provide a Task-Manager-like view for Portal 2 beta-related processes, including capabilities such as:
-
-- Viewing relevant running processes
-- PID display
-- Starting a task/program
-- Ending a task
-- Process details/properties
-- Process icons
-- Debugging-oriented controls
-- Dedicated debugger sub-pages
-
-The debugger is focused on **Portal 2 beta processes and related tools**, not general system-performance monitoring.
-
----
-
-### Steam Integration
-
-The original Steam integration remains part of the project and is being carried forward into the R-2 architecture.
-
-Current/prototype behavior includes:
-
-- Adding detected beta builds to Steam as shortcuts
-- Backing up `shortcuts.vdf` before making changes
-
----
-
-### Bundled Fixes
-
-The launcher can work with bundled fixes intended for Portal 2 beta builds that need additional files or compatibility changes.
-
-The prototype behavior includes:
-
-- Applying bundled fixes
-- Backing up files before changes are made
-
-R-2 is intended to make this functionality easier to manage through the rebuilt UI.
-
----
-
-### Port-Forwarding Helper
-
-The original utility for Windows TCP port proxies is retained as part of the launcher feature set.
-
-It is intended for beta setups that require custom local networking or port-proxy configuration.
-
----
-
-### Settings & Saved Data
-
-R-2 is being designed around dedicated launcher-owned configuration and saved-data handling rather than scattering settings throughout the UI.
-
-The project already uses launcher-specific saved-data locations, with the R-2 architecture continuing to expand this system.
-
----
-
-### Custom File Types & Data Formats
-
-R-2 is planned to introduce and/or expand support for **custom launcher-owned file types and data formats**.
-
-These formats are intended to make launcher data more structured, portable, and easier for the application to manage.
-
-The R-2 data system includes planned use of custom formats such as:
+One active/planned format is:
 
 ```text
 .SSDA
 ```
 
-The exact file specifications are part of the ongoing R-2 development and may change before release.
+Additional P2BL-specific formats and supporting projects are part of the larger R-2 architecture. Their specifications may change during development.
 
 ---
 
-### Progress & Operation Feedback
+## Progress & Operation Feedback
 
-R-2 is being designed so that long-running tasks visibly report what they are doing.
+R-2 is designed to provide more visible feedback during longer operations.
 
-This includes planned progress information for operations such as:
+Examples include:
 
-- Drive scanning
-- Folder scanning
+- Drive and folder scanning
 - Build detection
 - Install/copy operations
 - Fix installation
@@ -282,55 +208,165 @@ This includes planned progress information for operations such as:
 
 ---
 
-# R-1 Prototype — Legacy / Existing Feature Set
+## Steam Integration
 
-The original R-1 prototype is still important because it represents the foundation of the project and may remain useful while R-2 is being completed.
+P2BL retains Steam-related support as part of the R-2 launcher workflow.
 
-## Legacy GUI
-<img width="1365" height="857" alt="image" src="https://github.com/user-attachments/assets/497d0434-9726-4067-84a4-453fe8f37e1a" />
+### Features
 
+- Add supported beta builds to Steam as shortcuts
+- Back up `shortcuts.vdf` before modifying it
+- Steam-aware launch handling where required
 
-## R-1 Features
+---
 
-### Beta Build Scanner
+## Bundled Fix Support
 
-- Scan connected drives for known Portal 2 beta builds.
-- Scan manually added folders.
-- Keep a list of custom scan folders.
+P2BL can work with bundled fixes for supported Portal 2 beta builds.
 
-### Build Launcher
+### Features
 
-- Launch detected beta builds directly.
-- Optional map selection.
-- Configurable window width and height.
-- Option to start Steam before launching a build.
+- Bundled fix support
+- File backups before modification
+- Build-specific fix handling
+- No-Steam compatibility/fix workflow inherited by the R-2 architecture
 
-### Steam Integration
+---
 
-- Add detected beta builds to Steam as shortcuts.
-- Back up `shortcuts.vdf` before making changes.
+## Port-Forwarding Helper
 
-### Bundled Fixes
+The P2BL port-forwarding utility provides Windows TCP port-proxy management for beta setups that require custom local networking/proxy configuration.
 
-- Includes bundled fixes intended for beta builds that need additional files or compatibility changes.
-- Existing files are backed up before fixes are installed.
+### Features
 
-### Port-Forwarding Helper
+- Add Windows TCP port proxies
+- Remove existing proxies
+- List configured proxies
 
-- Add, remove, and list Windows TCP port proxies for Portal 2 beta-related setups.
+---
 
-### GUI + Console Modes
+# Systems Still in Development
 
-- Windows Forms GUI for normal use.
-- Console interface for advanced/manual operation.
+The following R-2 systems are actively being worked on and are **not yet considered final**.
 
-### Debug Console
+## Screenshot / In-Game Overlay System
 
-- Attach a separate debug console to a running launcher process.
+**Status: 🔧 Active Development**
+
+The screenshot and in-game overlay system is one of the major R-2 systems still under active development.
+
+The goal is to provide P2BL with an in-game utility layer for supported beta builds, including:
+
+- In-game P2BL overlay
+- Screenshot capture
+- Screenshot management
+- Dedicated screenshot storage
+- Screenshot history/listing
+- Screenshot viewing
+- Overlay input/keyboard handling
+- Launcher/overlay integration with supported beta builds
+
+This system is currently experimental and may change substantially in later Beta releases.
+
+---
+
+## New Builds Manager
+
+**Status: 🔧 Active Development**
+
+The New Builds Manager is being developed around the R-2 scanner and Build Manager so newly found builds can be added and managed immediately during scanning.
+
+---
+
+## Build Scanner Improvements
+
+**Status: 🔧 Active Development**
+
+Ongoing scanner work includes:
+
+- Faster scanning
+- Reduced duplicate detections
+- Better handling of differing beta build layouts
+- Improved repack detection
+- Better result presentation
+- Immediate insertion of discovered builds
+
+---
+
+## Debugger
+
+**Status: 🔧 Active Development**
+
+R-2 is planned to include a dedicated debugger/utility section focused on Portal 2 beta-related processes and tools.
+
+Planned capabilities include:
+
+- Process/task visibility
+- PID display
+- Start-task/program controls
+- End-task controls
+- Process details/properties
+- Process icons
+- Debugging-oriented controls
+- Dedicated debugger sub-pages
+
+---
+
+## Custom Map Manager
+
+**Status: 🔧 In Development**
+
+A dedicated **Custom Map Manager** is being developed around build-specific content folders such as:
+
+```text
+Resources/C-Maps/<build>/
+```
+
+---
+
+## Patch Manager
+
+**Status: ⏸ Deferred / Planned**
+
+A dedicated Patch Manager is planned for R-2 for build-specific patches and compatibility changes.
+
+---
+
+## Mod Manager
+
+**Status: ⏸ Deferred / Planned**
+
+A dedicated Mod Manager is planned for build-specific mod organization using directories such as:
+
+```text
+Resources/Mods/<build>/
+```
+
+---
+
+# Features Not Yet Added
+
+The following planned R-2 functionality is **not fully available in this Beta**:
+
+- Full production-ready in-game overlay
+- Complete screenshot-management workflow
+- Fully finished New Builds Manager
+- Fully finished Custom Map Manager
+- Fully finished Patch Manager
+- Fully finished Mod Manager
+- Final production-ready debugger
+- Finalized custom data/file-format system
+- Complete build-specific tool integration for every planned R-2 utility
+- Final advanced launch-argument workflow
+- Complete support for every known Portal 2 beta repack/layout
+
+Planned functionality may change as R-2 development continues.
+
+---
 
 # Known Portal 2 Beta Builds
 
-The launcher is designed around known Portal 2 beta builds, including the following build identifiers currently used by the project:
+The current P2BL build database/workflow includes these known build identifiers:
 
 | Build | Date / Period |
 |---|---|
@@ -345,92 +381,56 @@ The launcher is designed around known Portal 2 beta builds, including the follow
 | `852_6` | December 2010 |
 | `841_3` | January 2011 |
 
-> Build support may expand as additional research and preservation work is completed.
+Build support may expand as additional beta research and preservation work continues.
+
+---
+
+# Known Issues / Beta Limitations
+
+Because this is a Beta release:
+
+- Some R-2 pages may contain unfinished functionality.
+- Some controls may still be placeholders or partially implemented.
+- Some systems may only work with certain beta builds.
+- The screenshot/overlay system is experimental.
+- Screenshot functionality is not final.
+- Some scanner layouts may still require additional testing.
+- Some repacked beta builds may still not be detected correctly.
+- Build-specific tools are not all complete.
+- Some R-2 systems are still being migrated or redesigned.
+- Internal data formats may change between Beta releases.
+
+For detailed development issues and fixes, see the release feature/changelog document.
+
+---
+
+# Release Notes & Bug Fixes
+
+For the complete feature list, bug fixes, in-development systems, planned features, and Beta limitations for this release, see:
+
+**[`P2BL_R-2_BETA_v2.025.2-9.29.201-B_Features_and_Bug_Fixes.md`](P2BL_R-2_BETA_v2.025.2-9.29.201-B_Features_and_Bug_Fixes.md)**
 
 ---
 
 # Requirements
 
-For the current R-1 prototype/build environment:
+For **P2BL R-2 BETA v2.025.2-9.29.201-B**:
 
-- Windows
-- .NET 8 / .NET 8 SDK for building
-- x64 system
-- Visual Studio 2026 or another compatible .NET 8 build environment
+- Windows x64
+- .NET 8 runtime / compatible .NET 8 environment
+- x64-capable system
 
-The project targets:
-
-```text
-net8.0-windows
-```
-
-and is configured for x64 builds.
-
-> R-2 requirements may change as the application architecture is rebuilt.
+The project uses the Windows-targeted .NET 8 application architecture used by the R-2 development builds.
 
 ---
 
 # Building
 
-Clone the repository and run:
+R-2 is a development build and its project structure may continue to change between Beta releases.
 
-```bat
-Build.bat
-```
+For a source build, open the included Visual Studio solution and build the appropriate **Release / x64** configuration.
 
-The included build script attempts to use the installed .NET SDK and can fall back to Visual Studio MSBuild when available.
-
-You can also open:
-
-```text
-Portal2BetaLauncher.sln
-```
-
-in Visual Studio and build the **Release / x64** configuration.
-
----
-
-# Running
-
-To open the GUI directly:
-
-```bat
-Run-GUI.bat
-```
-
-The executable can also be started with:
-
-```text
---gui
-```
-
-The prototype can run in console mode when `--gui` is not used.
-
-> R-2 is being rebuilt with the GUI as the primary experience.
-
----
-
-# Project Structure
-
-The R-1 prototype currently uses a structure similar to:
-
-```text
-Portal-2-BETA-Launcher---Windows/
-├── Build.bat
-├── Run-GUI.bat
-├── EmbeddedFixes.zip
-├── LICENSE
-├── Portal2BetaLauncher.sln
-└── Portal2BetaLauncher/
-    ├── Models/
-    ├── Services/
-    ├── UI/
-    ├── Program.cs
-    ├── Portal2BetaLauncher.csproj
-    └── app.manifest
-```
-
-R-2 introduces a broader application architecture and additional resource/tool directories. The project structure is expected to continue changing while R-2 is under active development.
+> Build instructions and project paths may change while R-2 is under active development.
 
 ---
 
@@ -438,62 +438,50 @@ R-2 introduces a broader application architecture and additional resource/tool d
 
 Portal 2 BETA Launcher is intended for people researching, testing, documenting, and preserving Portal 2 beta builds.
 
-The project is particularly useful when working with builds that require:
+The project is particularly useful for workflows involving:
 
 - Custom launch arguments
-- Additional compatibility files
+- Compatibility files and fixes
 - Steam shortcuts
 - Build-specific content
-- Custom maps or mods
+- Custom maps and mods
 - Debugging tools
+- Screenshot and overlay tooling
 - Preservation-oriented file management
 
 The goal is to reduce the amount of manual setup required when working with older Portal 2 development builds.
 
 ---
 
-# Contributing & Testing
+# Reporting Bugs
 
-Because R-2 is a major rebuild, testing and bug reports are especially valuable during development.
+R-2 is a Beta, so bug reports and testing feedback are especially useful.
 
-For useful bug reports, include:
+When reporting a bug, include:
 
-- The Portal 2 beta build being used
-- Your Windows version
+- P2BL version
+- Portal 2 beta build being used
+- Windows version
 - What you were trying to do
-- Any error message or console output
-- Steps needed to reproduce the issue
-- Relevant screenshots when applicable
+- Exact error message, if any
+- Steps to reproduce the issue
+- Screenshots or recordings when useful
 
-Source-code availability may differ by release and licensing model. See the **License & Source Availability** section below.
+For scanner issues, also include the layout/type of the beta build or repack whenever possible.
 
 ---
 
-# License & Source Availability
+# License
 
-## R-1 Prototype
+P2BL R-2 is distributed under the **R-2 EULA** included with this release.
 
-The original R-1 prototype repository is currently licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+The R-2 EULA replaces the older R-1 GPL-3.0 release terms for the R-2 distribution.
 
-See [`LICENSE`](LICENSE) for the current repository license.
+See the repository's R-2 EULA file for the complete terms.
 
-## R-2 Licensing
+> The EULA included with the R-2 release is the authoritative license for the R-2 distribution. Third-party components and separately licensed materials remain subject to their own applicable licenses or EULAs.
 
-A **custom EULA / closed-source licensing model is being considered for R-2**.
-
-Under the proposed R-2 model:
-
-- The released application would be closed-source by default.
-- Normal users would receive the compiled application and its permitted files, not the complete source tree.
-- Certain qualified groups or individuals may be able to **request source-code access** for legitimate research, preservation, collaboration, security review, maintenance, or other approved purposes.
-- Source-code requests would be reviewed individually and are **not automatically guaranteed**.
-- Any approved source-code access may be subject to additional terms, restrictions, or a separate agreement.
-
-The final licensing terms will be published with the applicable R-2 release before the new license becomes authoritative.
-
-See [`EULA-DRAFT.md`](EULA-DRAFT.md) for the current proposed licensing model.
-
-> **Licensing note:** Until the R-2 license is officially changed and published, the existing repository license remains the governing license for material currently distributed under it.
+---
 
 # Credits
 
@@ -502,3 +490,13 @@ Created by **sonic Fan Tech**.
 Portal 2, Portal, Steam, and other Valve-related names and properties are owned by their respective rights holders.
 
 Portal 2 BETA Launcher is an independent community project and is **not affiliated with, sponsored by, or endorsed by Valve Corporation**.
+
+---
+
+## Links
+
+**P2BL Website:**
+https://sonicfantech.org/Site/P2BL.NET
+
+**GitHub Repository:**
+https://github.com/sonicFanTech/Portal-2-BETA-Launcher---Windows
