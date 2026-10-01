@@ -1,0 +1,51 @@
+PORTAL 2 BETA LAUNCHER — END USER LICENSE AGREEMENT
+Version 1.0
+Copyright (c) 2026 sonic Fan Tech. All rights reserved.
+
+1. SOFTWARE
+This End User License Agreement ("EULA") applies to the Portal 2 BETA Launcher software ("Software") and materials distributed with an R-2 release under this EULA. The Software is an independent community project created by sonic Fan Tech.
+
+2. LICENSE GRANT
+Subject to this EULA, you are granted a limited, non-exclusive, non-transferable license to install and use an authorized released executable copy of the Software for personal, research, testing, preservation, educational, or other lawful purposes permitted by the release. This license does not grant ownership of the Software or its source code.
+
+3. CLOSED-SOURCE DISTRIBUTION
+R-2 is distributed as closed-source software unless a release explicitly states otherwise. The normal Software distribution does not grant access to private source repositories, development files, internal tools, or unreleased source material.
+
+4. SOURCE-CODE REQUESTS
+Certain individuals or organizations may request source access for legitimate purposes, including relevant PSBR research, preservation, approved collaboration, development, security review, or archival work. Requests are reviewed individually and do not create an automatic right to source access. Approved access may be limited, time-limited, version-specific, or subject to additional terms and may be revoked when the approved purpose ends.
+
+5. SOURCE-CODE RESTRICTIONS
+Unless expressly authorized in writing, recipients of private source access may not publicly redistribute it, upload it to public repositories, resell or sublicense it, provide it to unauthorized third parties, or publish confidential development material obtained through source access.
+
+6. MODIFICATION AND DERIVATIVE WORKS
+The Software may not be modified, repackaged, or redistributed as a derivative product under a different name or project without permission where permission is required by the applicable release terms. Third-party components remain under their own licenses.
+
+7. REDISTRIBUTION
+Redistribution of an R-2 compiled release is permitted only to the extent expressly allowed by the final release terms. Separate permission may be required for development builds, private source files, internal tools, unreleased assets, test builds, or other materials identified as non-redistributable.
+
+8. REVERSE ENGINEERING
+Nothing in this EULA is intended to override rights that cannot legally be restricted under applicable law. Reverse engineering or interoperability activity must remain within applicable law and applicable third-party licenses.
+
+9. OWNERSHIP
+The Software, original code, original assets, documentation, branding, and other project materials remain the property of their respective rights holders unless a separate license states otherwise. This EULA grants usage rights only and does not transfer ownership.
+
+10. VALVE DISCLAIMER
+Portal 2 BETA Launcher is an independent community project. Valve Corporation is not the author, publisher, sponsor, or maintainer of the Software unless expressly stated otherwise. Portal, Portal 2, Steam, and related intellectual property belong to their respective owners.
+
+11. NO WARRANTY
+The Software is provided on an "as is" basis to the maximum extent permitted by applicable law. The developer does not guarantee compatibility with every beta build, Windows configuration, Steam version, or future software environment. Keep appropriate backups of important files.
+
+12. UPDATES AND CHANGES
+The developer may update, replace, remove, or change the Software between releases. A new release may be accompanied by updated licensing terms. The license distributed with a particular release governs that release unless otherwise stated.
+
+13. TERMINATION
+The license may terminate if you materially violate its terms. Upon termination, you must stop using and, where required, remove copies of the Software or private source materials that you are no longer licensed to retain.
+
+14. CONTACT AND SOURCE REQUESTS
+Licensing, collaboration, preservation access, and source requests may be directed through the Portal Series BETA Research Discord:
+https://discord.gg/ddBC3BVg5d
+
+15. VERSION
+This is Version 1.0 of the P2BL R-2 EULA.
+
+IMPORTANT: This document is project documentation and is not legal advice. The license accompanying an actual released build is the governing license for that build.
